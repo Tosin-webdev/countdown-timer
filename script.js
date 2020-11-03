@@ -22,9 +22,11 @@ const weekdays = [
   "Saturday",
 ];
 
+// selecting element from the Dom
 const giveaway = document.querySelector(".giveaway");
 const deadline = document.querySelector(".deadline");
 const items = document.querySelectorAll(".deadline-format h4");
+// end of selecting values
 
 let tempDate = new Date();
 let tempMonth = tempDate.getMonth();
